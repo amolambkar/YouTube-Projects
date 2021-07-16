@@ -28,3 +28,12 @@ translated = translator.translate(text, dest = 'en')
 
 #print the result
 print(translated.text)
+
+'''
+if you getting following error
+AttributeError: 'NoneType' object has no attribute 'group'
+
+do following :===> 
+pip3 uninstall googletrans
+pip3 install googletrans==3.1.0a0
+'''
